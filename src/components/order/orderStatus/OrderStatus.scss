@@ -1,0 +1,48 @@
+.order-status {
+  margin-top: 30px;
+  ._tabs {
+    display: flex;
+    .nav-item {
+      width: 154px;
+      height: 40px;
+      background: #e8ecf0;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      margin-right: 20px;
+      .nav-link {
+        color: #9aa1af;
+        font-weight: normal;
+        &.active {
+          background-color: #3ed0a3 !important;
+          color: #fff;
+          font-weight: bold;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  .wrap-tabs {
+    display: flex;
+    justify-content: space-between;
+
+    ._export-import-btns {
+      display: flex;
+      .btn {
+        width: 96px;
+        height: 40px;
+        border: 1px solid #dcdee3;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        background: transparent;
+        color: #16284d;
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

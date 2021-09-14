@@ -1,0 +1,10 @@
+._top-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  ._search-filter-wrapper {
+    display: flex;
+    align-items: center;
+  }
+}

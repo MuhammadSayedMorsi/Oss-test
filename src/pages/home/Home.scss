@@ -1,0 +1,47 @@
+.home_page {
+  margin: 40px;
+  width: 77%;
+  ._header {
+    display: flex;
+    justify-content: space-between;
+    &._title {
+      font-size: 34px;
+      color: #16284d;
+      font-weight: bold;
+    }
+  }
+
+  ._build-platform {
+    margin-top: 35px;
+    width: 100%;
+    height: 320px;
+    background: #f6f7f8;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+    ._box-content {
+      margin-left: 40px;
+      .card-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #16284d;
+      }
+      .card-text {
+        font-size: 17px;
+        color: #777c85;
+        font-weight: normal;
+      }
+      .btn {
+        width: 112px;
+        color: #fff;
+        background: #3ed0a3;
+        border-radius: 20px;
+        font-weight: normal;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}

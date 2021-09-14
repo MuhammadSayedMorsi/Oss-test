@@ -1,0 +1,108 @@
+.import-modal {
+  width: 508px;
+  height: 260px;
+
+  .modal-header {
+    border: none;
+  }
+  .modal-title {
+    font-size: 22px;
+    color: #16284d;
+    font-weight: bold;
+  }
+  ._close-modal {
+    background: transparent;
+    border: none;
+    outline: none;
+    &:focus {
+      outline: none;
+      border: none;
+      box-shadow: none;
+      background: transparent;
+    }
+    &:hover {
+      background: none;
+    }
+  }
+
+  .modal-content {
+    background: #ffffff;
+    box-shadow: 0px 5px 25px -1px rgba(22, 40, 77, 0.183976);
+    border-radius: 24px;
+  }
+
+  ._select-file {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f6f7f8;
+    border-radius: 12px;
+    padding: 0 16px;
+
+    .form-control {
+      border: none;
+      outline: none;
+      background: none;
+      padding: 0;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    ._select-btn {
+      background: transparent;
+      width: 124px;
+      height: 40px;
+      border: 1px solid #dcdee3;
+      border-radius: 20px;
+      font-size: 16px;
+      color: #16284d;
+    }
+  }
+
+  .modal-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  ._button-format {
+    font-size: 16px;
+    color: #3ed0a3;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &:hover,
+    &:focus {
+      color: #3ed0a3;
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  ._button-import {
+    width: 100%;
+    color: #fff;
+    background-color: #3ed0a3;
+    border-radius: 24px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 15px;
+    &:hover,
+    &:focus {
+      color: #fff;
+      background-color: #3ed0a3;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}

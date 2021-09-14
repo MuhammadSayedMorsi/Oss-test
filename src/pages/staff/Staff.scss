@@ -1,0 +1,52 @@
+.staff_page {
+  margin: 40px;
+  width: 77%;
+  ._header {
+    display: flex;
+    justify-content: space-between;
+    &._title {
+      font-size: 34px;
+      color: #16284d;
+      font-weight: bold;
+    }
+  }
+
+  ._sort-search-bar-add-new {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ._search-filter {
+      display: flex;
+      align-items: center;
+    }
+
+    ._add-new-staff {
+      ._add-staff-btn {
+        width: 192px;
+        height: 48px;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #3ed0a3 !important;
+        border-radius: 24px;
+
+        span {
+          margin-right: 8px;
+        }
+        &:focus {
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+        }
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

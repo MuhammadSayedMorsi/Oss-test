@@ -1,0 +1,271 @@
+.order-detail {
+  margin: 40px;
+  header {
+    display: flex;
+    align-items: center;
+    .btn {
+      background: none;
+      border: none;
+      outline: none;
+      margin-right: 30px;
+    }
+    ._title {
+      display: flex;
+      align-items: center;
+      h2 {
+        font-size: 34px;
+        color: #16284d;
+        margin-right: 16px;
+      }
+      span {
+        font-size: 22px;
+        color: #777c85;
+        font-weight: normal;
+      }
+    }
+  }
+  ._hold-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    ._box-one {
+      width: 50%;
+
+      h4 {
+        font-size: 20px;
+        color: #16284d;
+        margin-bottom: 20px;
+      }
+
+      ._details {
+        width: 530px;
+        height: auto;
+        border: 1px solid #e8ecf0;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        ._info {
+          h2 {
+            font-size: 18px;
+            color: #16284d;
+            font-weight: bold;
+          }
+          ._purchase-status {
+            display: flex;
+
+            p {
+              font-size: 16px;
+              color: #777c85;
+              margin: 0 6px;
+              &:first-child {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+
+        ._hold-info-action {
+          padding: 24px;
+          background: #f6f7f8;
+          border-radius: 20px 20px 0px 0px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 150px;
+
+          ._action {
+            display: flex;
+            flex-direction: column;
+            .btn {
+              width: 125px;
+              height: 34px;
+              border-radius: 20px;
+              border: none;
+              font-weight: normal;
+            }
+            ._proceed {
+              background: #3ed0a3;
+              margin-bottom: 16px;
+            }
+            ._print {
+              background: transparent;
+              color: #16284d;
+              border: 1px solid #dcdee3;
+            }
+          }
+        }
+
+        ._email-info-phone {
+          margin-top: 20px;
+          padding: 0 24px;
+          ._line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div {
+              font-size: 16px;
+              color: #777c85;
+              margin-bottom: 6px;
+              &:first-child {
+                font-weight: normal;
+              }
+              &:last-child {
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+
+      ._ordered-items {
+        h4 {
+          font-size: 20px;
+          color: #16284d;
+          margin-bottom: 20px;
+        }
+
+        ._item {
+          display: flex;
+          ._photo {
+            margin-right: 20px;
+          }
+          ._detail {
+            h5 {
+              font-size: 18px;
+              color: #16284d;
+              margin-bottom: 0;
+            }
+            span {
+              font-size: 15px;
+              color: #777c85;
+            }
+
+            ._size-price {
+              margin-top: 10px;
+              ._size {
+                font-size: 20px;
+                color: black;
+                font-weight: bold;
+                margin-right: 10px;
+              }
+              ._price {
+                font-size: 20px;
+                color: #3ed0a3;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    ._box-two {
+      width: 50%;
+      margin-left: 40px;
+      h3 {
+        font-size: 20px;
+        color: #16284d;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      ._card {
+        border: 1px solid #e8ecf0;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 24px;
+        height: auto;
+        ._head {
+          display: flex;
+          justify-content: space-between;
+          ._logo-name {
+            display: flex;
+
+            h4 {
+              margin-left: 16px;
+              font-size: 18px;
+              color: #16284d;
+            }
+          }
+          span {
+            font-size: 18px;
+            color: #16284d;
+            font-weight: normal;
+          }
+        }
+
+        ._place-info {
+          padding: 20px;
+          display: flex;
+          background: #f6f7f8;
+          border-radius: 12px;
+          margin-top: 24px;
+          span {
+            margin-right: 16px;
+          }
+          p {
+            font-size: 16px;
+            color: #16284d;
+          }
+        }
+      }
+
+      ._payment-details {
+        margin-top: 40px;
+        ._hold-credit {
+          height: 104px;
+          background: #ffffff;
+          border: 1px solid #e8ecf0;
+          border-radius: 20px;
+          padding: 24px;
+          display: flex;
+          ._credit-card {
+            margin-right: 20px;
+          }
+          ._info {
+            h5 {
+              font-size: 18px;
+              color: #16284d;
+              font-weight: bold;
+            }
+            ._card-number {
+              display: flex;
+              p {
+                font-size: 16px;
+                color: #777c85;
+                margin: 0 8px;
+                &:first-child {
+                  margin-left: 0;
+                }
+              }
+            }
+          }
+        }
+
+        ._taxes {
+          border: 1px solid #e8ecf0;
+          border-radius: 20px;
+          margin-top: 20px;
+          padding: 17px 24px 8px 24px;
+          div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            li {
+              font-size: 16px;
+              font-weight: normal;
+              color: #777c85;
+              list-style: none;
+
+              &.bold {
+                font-weight: bold;
+              }
+            }
+          }
+          ._add-border-dashed {
+            margin: 15px 0;
+            border: 1px dashed #dcdee3;
+          }
+        }
+      }
+    }
+  }
+}

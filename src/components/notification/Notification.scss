@@ -1,0 +1,66 @@
+.notification_warpper {
+  position: relative;
+  button {
+    background: none;
+    outline: none;
+    border: none;
+  }
+  ._box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    ._wrapper-box {
+      width: 492px;
+      padding: 35px;
+      background: #ffffff;
+      box-shadow: 0px 5px 25px -1px rgba(22, 40, 77, 0.183976);
+      border-radius: 24px;
+      height: auto;
+      ._head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        h2 {
+          font-size: 22px;
+          color: #16284d;
+          font-weight: 700;
+        }
+        button {
+          border: none;
+          background: none;
+          outline: none;
+        }
+      }
+
+      ._content {
+        ._coming_notification {
+          display: flex;
+          ._icon {
+            margin-right: 20px;
+          }
+          ._title {
+            h3 {
+              font-size: 16px;
+              color: #16284d;
+              font-weight: bold;
+            }
+            p {
+              font-size: 14px;
+              font-weight: normal;
+              color: #777c85;
+              margin-bottom: 0;
+            }
+            span {
+              font-size: 12px;
+              color: #777c85;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

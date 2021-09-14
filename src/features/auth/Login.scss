@@ -1,0 +1,139 @@
+.login_page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 104px;
+  width: 100%;
+  padding-bottom: 100px;
+
+  .sign-up-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .row {
+    width: 100%;
+    // align-items: center;
+
+    .app_login_title {
+      padding-top: 66px;
+      h1 {
+        font-size: 26px;
+        color: #16284d;
+        font-weight: bold;
+      }
+      p {
+        font-size: 16px;
+        color: #777c85;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .form_wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+    .auth_form {
+      width: 360px;
+      margin-right: 25px;
+      .title {
+        font-size: 22px;
+        color: #16284d;
+        margin-bottom: 80px;
+        text-align: center;
+      }
+      .form-label {
+        font-size: 14px;
+        color: #9aa1af;
+      }
+      .form-group {
+        border-bottom: 1px solid #dcdee3;
+        margin-bottom: 32px;
+      }
+      .form-control {
+        color: #16284d;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        padding-left: 0;
+        font-weight: normal;
+        padding-bottom: 17px;
+        &:focus {
+          box-shadow: none;
+          outline: none;
+          border: none;
+        }
+        &::placeholder {
+          font-size: 18px;
+          color: #9aa1af;
+          font-weight: normal;
+        }
+      }
+      .auth_button {
+        width: 100%;
+        height: 40px;
+        background-color: #3ed0a3;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+      }
+      .route_to_login {
+        font-size: 16px;
+        color: #3ed0a3;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .dis_bg {
+        background-color: #dcdee3;
+        color: #9aa1af;
+      }
+
+      .log_social {
+        display: flex;
+        flex-direction: column;
+        .facebook,
+        .google {
+          width: 100%;
+          height: 54px;
+          border-radius: 27px;
+          margin-bottom: 20px;
+          border: none;
+          font-size: 16px;
+          font-weight: 700;
+          position: relative;
+          span {
+            position: absolute;
+            left: 11px;
+            top: 10px;
+          }
+        }
+        .facebook {
+          background-color: #415898;
+          color: #fff;
+        }
+
+        .google {
+          background-color: #e8ecf0;
+          color: #16284d;
+        }
+      }
+      .or {
+        display: flex;
+        justify-content: center;
+        margin: 65px 0 30px;
+      }
+    }
+
+    .error {
+      position: absolute;
+      bottom: -30px;
+      color: red;
+      font-size: 12px;
+    }
+  }
+}

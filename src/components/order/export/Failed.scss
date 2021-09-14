@@ -1,0 +1,50 @@
+.failed-box {
+  position: absolute;
+  bottom: 60px;
+  z-index: 100;
+  left: 80px;
+  background: #ffffff;
+  box-shadow: 0px 5px 25px -1px rgba(22, 40, 77, 0.183976);
+  border-radius: 13px;
+  width: 230px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 20px;
+  ._download-status {
+    display: flex;
+    ._failed-download {
+      display: flex;
+      align-items: center;
+      margin-right: 16px;
+    }
+  }
+
+  ._download-text {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    h6 {
+      font-size: 16px;
+      color: #777c85;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+
+    ._dismiss-download {
+      height: 24px !important;
+      color: #16284d !important;
+      padding: 0;
+      text-align: left;
+      height: auto;
+      border: none !important;
+      background: transparent !important;
+      font-weight: normal !important;
+      &:focus {
+        background: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+}

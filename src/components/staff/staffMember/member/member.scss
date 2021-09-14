@@ -1,0 +1,71 @@
+._member {
+  display: flex;
+  border: 1px solid #dcdee3;
+  border-radius: 28px;
+  margin-top: 32px;
+  width: 470px;
+  height: 180px;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  ._photo {
+    margin-right: 24px;
+  }
+
+  ._member-info {
+    h2 {
+      font-size: 18px;
+      color: #16284d;
+      font-weight: bold;
+    }
+
+    ._member-name {
+      display: flex;
+
+      p {
+        font-size: 16px;
+        color: #777c85;
+        font-weight: normal;
+        margin: 0 8px;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+
+      ._active {
+        color: #3ed0a3;
+      }
+    }
+
+    ._hold-edit-details-btns {
+      display: flex;
+      margin-top: 20px;
+      .btn {
+        font-size: 14px;
+        width: 125px;
+        height: 34px;
+        border-radius: 20px;
+        margin-right: 20px;
+
+        &:focus {
+          background-color: none;
+          box-shadow: none;
+          border: none;
+        }
+        &:hover {
+          background-color: none;
+        }
+
+        &:first-child {
+          background-color: #16284d;
+          border: none;
+        }
+        &:nth-child(2) {
+          background-color: transparent;
+          border: 1px solid #dcdee3;
+          color: #16284d;
+        }
+      }
+    }
+  }
+}
