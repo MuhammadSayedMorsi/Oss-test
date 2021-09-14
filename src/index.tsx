@@ -21,7 +21,7 @@ ReactDOM.render(
     <Provider store={store}>
       <Router>
         <Switch>
-          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/" to="/sign-up" />
           <Route exact path="/sign-up" component={AppSignUP} />
           <Route exact path="/login" component={AppLogin} />
           <App />
